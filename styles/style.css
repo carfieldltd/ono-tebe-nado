@@ -121,60 +121,103 @@
 }
 
 .title-increased-line_height {
-    
+    line-height: 118px;
 }
 
 .aligned-text_left {
-    
+    text-align: left;
 }
 
 .aligned-text_center {
-    
+    text-align: center;
 }
 
 .aligned-text_right {
-
+    text-align: right;
+    margin-left: 580px;
 }
 
 .letter-spacing-extended {
-    
+    letter-spacing: 60px;
 }
 
 .no-letter-spacing {
-    
+    letter-spacing: 30px;
 }
 
 .cover__description {
-
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    align-self: center;
+    gap: 79px;
 }
 
 .cover__description-text {
-
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 28px;
+    align-self: center;
+    justify-self: start;
+    word-spacing: 17.5px;
 }
 
 .bet-button {
-    
+    align-self: center;
+    justify-self: right;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25,83px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 12px 32px 11px 31px;
+    width: 259px;
+    height: 53px;
 }
     
   
 .lots {
-    
+    padding: 179px 24px 146px;
+    background-color: #FFFFFF;
 }
 
 .lots__heading {
-
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 49px;
+    margin-left: 40px;
 }
 
 .lots__card-list {
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 23px;
+    margin-bottom: 30px;
+    list-style: none;
 }
 
 .lots__card-list-item {
-
+    flex-grow: 1;
+    width: 334px;
+    min-height: 567px;
 }
 
 .card-link {
-
+    display: block;
+    text-decoration: none;
+    height: 100%;
 }
 
 .card {
