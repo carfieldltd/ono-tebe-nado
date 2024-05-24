@@ -1,1 +1,231 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 92px 50px 96px;
+    background-color: #FFFFFF;
+}
+
+.header__menu {
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 22px;
+    list-style-position: outside;
+    line-height: 21.6px;
+    text-wrap: nowrap;
+}
+
+.header__links-list-item {
+    list-style: circle;
+    margin-right: 13px;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+    margin-right: 13.48px;
+}
+
+.header__links-list-item:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.header__link {
+    border-bottom: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__logo {
+    display: block;
+    grid-column: 2;
+    justify-self: start;
+    align-self: center;
+    height: 105px;
+    margin-left: 29px;
+  }
+
+.header__logo-image {
+     height: 100%;
+}
+
+.address {
+
+}
+
+.header__address {
+
+}
+
+
+.main {
+    display: block;
+}
+
+.cover {
+
+  }
+
+.overlay {
+
+}
+
+.cover__title {
+    
+}
+
+.title-increased-line_height {
+    
+}
+
+.aligned-text_left {
+    
+}
+
+.aligned-text_center {
+    
+}
+
+.aligned-text_right {
+
+}
+
+.letter-spacing-extended {
+    
+}
+
+.no-letter-spacing {
+    
+}
+
+.cover__description {
+
+}
+
+.cover__description-text {
+
+}
+
+.bet-button {
+    
+}
+    
+  
+.lots {
+    
+}
+
+.lots__heading {
+
+}
+
+.lots__card-list {
+    
+}
+
+.lots__card-list-item {
+
+}
+
+.card-link {
+
+}
+
+.card {
+
+}
+
+.card_type_film {
+
+}
+
+.card_type_book {
+
+}
+
+.card_type_picture {
+
+}
+
+.card__title {
+
+}
+
+.card__text {
+
+}
+
+.lots__look-more-link {
+
+}
+
+.about {
+
+}
+
+.about__logo {
+
+}
+
+.about__logo-image {
+
+}
+
+.about__title {
+
+}
+
+.about__title-header {
+
+}
+
+.about__text {
+
+}
+.footer {
+
+  }
+  
+.footer__menu {
+
+  }
+
+.footer__menu-list-item {
+
+  }
+  
+.footer__menu-link {
+
+  }
+  
+.footer__menu-link_active {
+
+  }
+  
+.footer__social-list {
+
+  }
+  
+.footer__social-list-item {
+
+  }
+  
+.footer__social-link {
+
+  }
+  
+.footer__social-icon {
+
+  }
+  
+
