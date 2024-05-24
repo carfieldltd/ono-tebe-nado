@@ -361,19 +361,27 @@
   }
   
 .footer__social-list {
-
+    display: flex;
+    grid-column: 3;
+    justify-self: right;
+    justify-content: space-between;
+    gap: 48px;
+    align-self: self-start;
+    max-width: 240px;
   }
   
 .footer__social-list-item {
-
+    display: block;
   }
   
 .footer__social-link {
-
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
   }
   
 .footer__social-icon {
-
+    min-height: 48px;
   }
   
 
